@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(80deg, red, blue, yellow);
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.calculator {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+}
+
+.monitor {
+  background-color: aliceblue;
+  padding: 15px;
+  width: 83%;
+  margin: 10px;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.monitor span {
+  font-size: 20px;
+  color: lightslategrey;
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  color: lightgrey;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.App button:hover {
+  background-color: whitesmoke;
+}
+
+.operator {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.operator button {
+  flex: 1 1 0%;
+  background-color: rgb(154, 208, 255);
+  color: red;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.operation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: none;
+  width: 90%;
+  margin: 5px;
+}
+
+.operation button {
+  flex: 1 1 30%;
+  max-width: 30%;
+  width: 40%;
+  background-color: rgba(182, 182, 182, 0.774);
+  color: black;
+  font-weight: 600;
+}
+
+.operation .enterOp {
+  color: aliceblue;
+  background-color: rgb(0, 0, 160);
+  font-size: 1.3rem;
+  height: 20%;
+}
+
+.operation .enterOp:hover {
+  background-color: blue;
+}
